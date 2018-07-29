@@ -10,7 +10,7 @@ Commands:
   - /cherryreload - reload messages
   
 Permissions:
-    - cherrycheck.use
+  - cherrycheck.use
  
  
  
