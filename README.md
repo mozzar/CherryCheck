@@ -4,13 +4,13 @@ dependencies:
   - PermissionsEX
 
 Commands: 
-  -/cherrycheck <player> - add player to checkroom
-  -/cherryclear <player> - remove player from checking
-  -/cherrysetroom <player> - set check room
-  -/cherryreload - reload messages
+  - /cherrycheck <player> -add player to checkroom
+  - /cherryclear <player> - remove player from checking
+  - /cherrysetroom <player> - set check room
+  - /cherryreload - reload messages
   
- Permissions:
-    -cherrycheck.use
+Permissions:
+    - cherrycheck.use
  
  
  
