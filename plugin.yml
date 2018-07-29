@@ -1,0 +1,23 @@
+name: CherryCheck
+version: 1.0.0
+main: com.gmail.mozzar.MainCherryCheck
+author: moZZar
+website: mozzar.ovh
+depend: [PermissionsEX]
+commands:
+  cherrycheck:
+    aliases: [sprawdz, checkplayer]
+    description: add player to check
+    usage: "Usage: /cherrycheck [player]"
+  cherrysetroom:
+    aliases: [ustawpokoj, setcheckroom]
+    description: set check-room players
+    usage: "Usage: /cherrysetroom"
+  cherryclear:
+    aliases: [czysty, clearcheck]
+    description: remove player from checking (player clear)
+    usage: "Usage: /cherryclear [player]"
+  cherryreload:
+    description: reload messages from config of cherrycheck
+    usage: "Usage: /cherryreloadmessages"
+

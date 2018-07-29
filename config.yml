@@ -1,0 +1,24 @@
+messages:
+  broadcasts:
+    clear: '&7» &aPlayer &c%player% &ais clear'
+    check: '&7» &aPlayer &c%admin% &achecking player &c%player%'
+  setroom: '&7» &aCheck-room setted at position &9%position%'
+  errorsetroom: '&7» &aError setting check-room!'
+  nopermission: '&7» &cNo permission to use this command'
+  playeralreadycheck: '&7» &cThis player is already in check!'
+  playercheck: '&7» &cYou Checking &9%player%'
+  playernocheck: '&7» &cPlayer %player% is not checked!'
+  playerischecked: '&7» &cYou are checked for having cheats by %admin%! dont logout and listen to the admin'
+  wrongusage: '&7» &cToo few args'
+  playeroffline: '&7» &cPlayer is offline!'
+  kickduringcheck: '&7» &c%player% &bwas kicked from server during checking!'
+  commandsblocked: '&7» &cCommands are blocked during checking!'
+  roomchat: '&8||&cCheckRoom&8|| &7%player% &b» %message%'
+
+
+
+commands:
+  logout: 'cherrytempban %player% 7d &cYou Log out during checking'
+
+permissions:
+  usage: cherrycheck.use
