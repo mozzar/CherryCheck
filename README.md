@@ -1,5 +1,6 @@
 # CherryCheck V1.0.0
 Simple Minecraft Spigot/Bukkit plugin for my friend
+
 Dependencies:
   - PermissionsEX
 
